@@ -1,9 +1,16 @@
 .selectedVideo{
-    width: 100vw;
+    width: 100%;
 }
 
-
 .selected-video{
-    width: 80vw;
-    height: 90vh;
+    width: 829px;
+    height: 466px;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .selected-video{
+        width: 100vw;
+        height: 40vh;
+    }
 }

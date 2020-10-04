@@ -1,11 +1,12 @@
 import React from "react";
+import './Videolist.css';
 
 function Videolist({videos}) {
 
   // console.log(videos);
   
   return (
-    <div>
+    <div className="container-videolist">
       { 
         videos ? videos.map((video , index) => (
         <div key={index}>  
