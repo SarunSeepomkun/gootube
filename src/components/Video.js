@@ -1,4 +1,5 @@
 import React from "react";
+import './Video.css';
 
 function Video({ video }) {
 
@@ -11,17 +12,13 @@ function Video({ video }) {
     {
         videoSrc = '';
     }
-  
-
-  console.log(video);
 
   return (
-    <div  className="selectedVideo">
+    <div  className="container-video">
       {video ? (
         <iframe
           frameBorder="0"
-          height="100%"
-          width="100%"
+          className="selected-video"
           title="Video Player"
           src={videoSrc}
         />

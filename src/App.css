@@ -1,15 +1,7 @@
 .container {
     width: 100%;
-    max-width: 850px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.searchBar{
-    width: 100%;
-}
-
-.selectedVideo{
-    height: 450px;
 }
